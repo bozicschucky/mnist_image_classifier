@@ -2,7 +2,8 @@
 
 This project is a web-based digit classifier built using TensorFlow.js and the MNIST dataset. It classifies hand-drawn digits (0-9) by predicting the number displayed in the image input. The application leverages TensorFlow.js to load, process, and classify images in real time within the browser.
 
-![Screenshot](image.png) <!-- You can link to your screenshot file here. Replace `screenshot.png` with your actual file name. -->
+![Screenshot](image1.png) 
+![Screenshot](image.png) 
 
 ## Table of Contents
 - [Overview](#overview)
