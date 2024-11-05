@@ -47,11 +47,11 @@ p {
 p#prediction.correct {
     border: 3px solid #00ff00;
     color:#00ff00;
-    font-size: 100pt;
+    font-size: 30pt;
 }
 
 p#prediction.wrong {
     border: 3px solid #ff0000;
     color:#ff0000;
-    font-size: 100pt;
+    font-size: 30pt;
 }
