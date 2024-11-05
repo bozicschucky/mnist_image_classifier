@@ -1,9 +1,39 @@
-# TensorFlow.js MNIST Image classifier ###
+# TensorFlow.js MNIST Image Classifier
 
-Below you see what number the trained TensorFlow.js model has predicted from the input image.</p>
-      <p>Red is a wrong predication, Green is a correct one.</p>
-      <p id="prediction" class="output">Training model. Please wait...</p>
+This project is a web-based digit classifier built using TensorFlow.js and the MNIST dataset. It classifies hand-drawn digits (0-9) by predicting the number displayed in the image input. The application leverages TensorFlow.js to load, process, and classify images in real time within the browser.
 
+![Screenshot](image.png) <!-- You can link to your screenshot file here. Replace `screenshot.png` with your actual file name. -->
 
-BoilerPlate Code to set up the repo
-Cited from [here](https://codepen.io/jasonmayes/pen/BaNjLyo)
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Technical Details](#technical-details)
+- [Credits](#credits)
+- [License](#license)
+
+## Overview
+This project utilizes the TensorFlow.js library to load a pre-trained model that can classify images of handwritten digits from the MNIST dataset. The classifier predicts the digit displayed in a 28x28 pixel grayscale image, with correct predictions highlighted in green and incorrect predictions in red.
+
+## Features
+- **Real-time prediction:** Provides instant feedback on digit predictions.
+- **Color-coded predictions:** Green text indicates correct predictions, while red text indicates incorrect predictions.
+- **Browser-based model:** Built entirely in JavaScript using TensorFlow.js, making it platform-independent and easy to use.
+
+## Demo
+You can view the live demo of the project at [Your Demo Link Here](https://your-demo-url.com).
+
+## Installation
+
+### Prerequisites
+- Ensure you have a modern web browser that supports JavaScript and TensorFlow.js.
+- Internet connection to load TensorFlow.js library and model data.
+
+### Steps
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/bozics_chucky/tensorflowjs-mnist-classifier.git
+   cd tensorflowjs-mnist-classifier
