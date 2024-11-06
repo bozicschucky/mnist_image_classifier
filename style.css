@@ -34,6 +34,9 @@ p {
  margin: 5px;
 }
 
+.container{
+    display: flex;
+}
 .box {
     width: 45%;
     margin:1%;
@@ -41,7 +44,6 @@ p {
     display: inline-block;
     min-height: 400px;
     text-align: center;
-    float:left;
 }
 
 p#prediction.correct {
@@ -54,4 +56,10 @@ p#prediction.wrong {
     border: 3px solid #ff0000;
     color:#ff0000;
     font-size: 30pt;
+}
+
+.blocky {
+    display: block;
+    margin: 50px auto;
+    width: 50%;
 }
